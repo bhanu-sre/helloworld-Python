@@ -6,6 +6,7 @@ pipeline {
             steps {
                 echo 'Hello World'
                 echo payload
+                echo action
             }
         }
         stage('execute python'){
